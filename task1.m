@@ -12,6 +12,7 @@ function yres=yCalc(x,a,b)
   znam = acos(x.*b.*x)+exp(-x./2);
   yres = chisl./znam;
 end
+
 y1 = yCalc(x,a,b);
 y2 = yCalc(X,a,b);
 
